@@ -43,7 +43,7 @@ I have created Prefect pipline that consisted of two flows etl_web_to_gcs and tr
  * create_insights:
     * read the data from the bigquery table and make a dashboard using Google Looker Studio
  
-<img alt = "image" src = "https://i.ibb.co/zswN4FF/tweets-dag.png">
+<img alt = "image" src = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/flows.png">
 
 ## Data Visualization
 I created a visualization dashboard  showing the end result of the project. <br>
