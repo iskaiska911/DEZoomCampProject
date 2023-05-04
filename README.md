@@ -48,7 +48,7 @@ Here is general architecture of my project
 
 And here is the schema of my flows 
 
-<img alt = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/flows_schema.png">
+<img alt = "image" src = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/flows_schema.png">
 
 ## Data Visualization
 I created a visualization dashboard  showing the end result of the project. <br>
