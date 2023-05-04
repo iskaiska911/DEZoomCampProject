@@ -42,8 +42,13 @@ I have created Prefect pipline that consisted of two flows etl_web_to_gcs and tr
     * gcs_bigquery: create the table in data warehouse, google big query (GBQ) by the parquet files in datalake.
  * create_insights:
     * read the data from the bigquery table and make a dashboard using Google Looker Studio
- 
-<img alt = "image" src = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/flows.png">
+
+Here is general architecture of my project  
+<img alt = "image" src = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/architecture.png">
+
+And here is the schema of my flows 
+
+<img alt = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/flows_schema.png">
 
 ## Data Visualization
 I created a visualization dashboard  showing the end result of the project. <br>
