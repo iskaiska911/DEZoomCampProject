@@ -90,3 +90,32 @@ used they are made mostly for demonstration
 
 
 
+## Reproducing (hope that will work)
+I use requirements.txt to managelibraries in my project.  
+
+```bash
+pip install requirements.txt 
+```
+
+Also you need to set environment variables, you can use enviroment.env as example.
+Actually I added them manually throug pycharm run config but you can try this
+```bash
+export $(cat .enviroment.env | xargs) #set environment variables from file enviroment.env
+```
+
+After that you can run commands in project environment (some examples):
+```bash
+run prefect orion start # start orion server
+run prefect agent start -q default # start prefect agent
+python 2.Prefect-Spark-BQ/to_gcs.py 
+python 2.Prefect-Spark-BQ/to_bq.py 
+
+```
+Other wise run it manully with the help of pycharm run config. But run these two scripts separately.
+
+## P.S
+All in all there are a lot of aspects to be imporved in my project.
+Here are main point
+* Using of docker 
+* Building deployments
+* Implementing DBT
