@@ -5,7 +5,6 @@ Makarenkov Aleksandr
 
 # EARTHQUAKE_ANALYSIS_PIPELINE
 A data pipeline to ingest earthqake datasets from https://earthquake.usgs.gov/ API then perfrom some data agregation using Pyspark, load data to BigQuery DWH and make Dashboard using Google Looker Studio.
-ta cleaning and preprocessing and lastly perform sentiment analysis to build a general understanding of the sentiment of the tweets. 
 
 ## Project Description
 
