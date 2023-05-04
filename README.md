@@ -74,4 +74,19 @@ terraform init
 ```console
 terraform apply -auto-approve
 ```
-> 
+
+## Step 3: Data Piplines<br>
+I used [Prefect](https://www.prefect.io/) to orchestrate data ingestion.  
+I've created basic scripts for data ingestion and sending files it to GCS Bucket. Also I'va made some data aggregation with pysprak.Although these buckets arent
+used they are made mostly for demonstration
+
+#Example of flow run
+
+<img alt = "image" src = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/flows.png">
+
+#BQ Tables 
+
+<img alt = "image" src = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/BQ.png">
+
+
+
