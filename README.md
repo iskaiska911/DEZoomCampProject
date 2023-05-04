@@ -38,7 +38,7 @@ I have created Prefect pipline that consisted of two flows etl_web_to_gcs and tr
     * download data from public API and store it in GCS bucket.
     * read the data from the GCS bucket and ingest it into a Spark dataframe.
     * perform some data aggregation.
-    * upload the datafram data lake, google cloud storage (GCS) in parquet format.
+    * upload the dataframe to data lake google cloud storage (GCS) in parquet format.
  * create_bigquery_table:
     * gcs_bigquery: create the table in data warehouse, google big query (GBQ) by the parquet files in datalake.
  * create_insights:
