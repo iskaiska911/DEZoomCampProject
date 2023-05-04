@@ -52,9 +52,9 @@ And here is the schema of my flows
 
 ## Data Visualization
 I created a visualization dashboard  showing the end result of the project. <br>
-Dashboard: [url](https://lookerstudio.google.com/reporting/039a6daa-f3e6-4b56-b9d2-a77a16f50de4/page/OF3OD)
+Dashboard: [url](https://lookerstudio.google.com/u/0/reporting/c66f47ce-dc7d-45b8-bcb1-3fe7f9cc8d5c/page/tEnnC)
 
-<img alt = "image" src = "https://i.ibb.co/4McMtSg/tweets-setiment-dashboard.png">
+<img alt = "image" src = "https://github.com/iskaiska911/DEZoomCampProject/blob/main/img/dashboard.png">
 
 ## Reproductivity
 
